@@ -38,10 +38,7 @@ A_s    = zeros(n_classPair, n_components, n_chan, n_participants);
 for cPair = 1:n_classPair
     
     for comp = 1: n_components
-        
-        
-        epos_ival  = cellfun(@(s) {proc_selectIval(s,components{comp})}, epos_labelfixed);
-        
+                
         for participant = 1: n_participants
 
             %% map the weight struct array (output of xvalidation function) 
