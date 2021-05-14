@@ -39,8 +39,9 @@ for cPair = 1:n_classPair
     
     for comp = 1: n_components
         
+        
         epos_ival  = cellfun(@(s) {proc_selectIval(s,components{comp})}, epos_labelfixed);
-        Xs         = [];
+        
         for participant = 1: n_participants
 
             %% map the weight struct array (output of xvalidation function) 
@@ -74,17 +75,18 @@ for cPair = 1:n_classPair
             % visually on plot.
 
 
-            %% select binary class for X
+            %% select ERP component interval and same binary classes for X
             % epos dimension: n_time, n_chan, n_trials 
-            epos    = proc_selectClasses(epos_ival{participant}, classPair(cPair,:));
-            X       = mean(epos.x,3); % mean across trials
+            epo_comp = proc_selectIval(epos_labelfixed{participant},components{comp});
+            epos     = proc_selectClasses(epo_comp, classPair(cPair,:));
+            X        = mean(epos.x,3); % mean across trials
 
             %% compute forward model from LDA weights
-            A = cov(X)*W_mean;
+            A        = cov(X)*W_mean;
             
             % activation map dimension:  [n_chan, 100]
-            A_mean = squeeze(mean(A,2)); % ***
-            A_s(cPair,comp,:,participant) = A_mean;
+            A_mean                     = squeeze(mean(A,2)); % ***
+            A_s(cPair,comp,:,partpant) = A_mean;
 
                                 
         end     

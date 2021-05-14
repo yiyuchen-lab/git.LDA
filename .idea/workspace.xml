@@ -1,8 +1,9 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85b1f4a6-8bc5-4ec5-9953-367c2d78082f" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/mat/epos.mat" beforeDir="false" />
+    <list default="true" id="85b1f4a6-8bc5-4ec5-9953-367c2d78082f" name="Default Changelist" comment="initial commmit">
+      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/bbci_InterpreteLDA.m" beforeDir="false" afterPath="$PROJECT_DIR$/bbci_InterpreteLDA.m" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -21,6 +22,7 @@
   <component name="PropertiesComponent">
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
+    <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="last_opened_file_path" value="$PROJECT_DIR$" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
@@ -36,6 +38,7 @@
       <updated>1620802564554</updated>
       <workItem from="1620802565740" duration="2053000" />
       <workItem from="1620967638823" duration="573000" />
+      <workItem from="1620971575794" duration="586000" />
     </task>
     <task id="LOCAL-00001" summary="initial commmit">
       <created>1620802950752</created>
@@ -60,6 +63,7 @@
         </entry>
       </map>
     </option>
+    <option name="oldMeFiltersMigrated" value="true" />
   </component>
   <component name="VcsManagerConfiguration">
     <option name="CHECK_NEW_TODO" value="false" />
