@@ -1,9 +1,8 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="85b1f4a6-8bc5-4ec5-9953-367c2d78082f" name="Default Changelist" comment="initial commmit">
-      <change afterPath="$PROJECT_DIR$/.idea/vcs.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/bbci_InterpreteLDA.m" beforeDir="false" afterPath="$PROJECT_DIR$/bbci_InterpreteLDA.m" afterDir="false" />
+    <list default="true" id="85b1f4a6-8bc5-4ec5-9953-367c2d78082f" name="Default Changelist" comment="">
+      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -23,8 +22,9 @@
     <property name="RunOnceActivity.OpenProjectViewOnStart" value="true" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="SHARE_PROJECT_CONFIGURATION_FILES" value="true" />
+    <property name="TODO_SCOPE" value="All Places" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/../LieGame_2020-09-11" />
     <property name="nodejs_interpreter_path.stuck_in_default_project" value="undefined stuck path" />
     <property name="nodejs_npm_path_reset_for_default_project" value="true" />
   </component>
@@ -38,7 +38,9 @@
       <updated>1620802564554</updated>
       <workItem from="1620802565740" duration="2053000" />
       <workItem from="1620967638823" duration="573000" />
-      <workItem from="1620971575794" duration="586000" />
+      <workItem from="1620971575794" duration="1063000" />
+      <workItem from="1621311119708" duration="33000" />
+      <workItem from="1621311163979" duration="19000" />
     </task>
     <task id="LOCAL-00001" summary="initial commmit">
       <created>1620802950752</created>
@@ -47,7 +49,21 @@
       <option name="project" value="LOCAL" />
       <updated>1620802950752</updated>
     </task>
-    <option name="localTasksCounter" value="2" />
+    <task id="LOCAL-00002" summary="initial commmit">
+      <created>1620972184253</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1620972184253</updated>
+    </task>
+    <task id="LOCAL-00003" summary="initial commmit">
+      <created>1620972253254</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1620972253254</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
